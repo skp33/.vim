@@ -1,0 +1,16 @@
+" Markdown - Syntax file for Markdowm files
+
+Plug 'tpope/vim-markdown'
+
+let g:markdown_fenced_languages = [
+      \ 'sql',
+      \ 'sh',
+      \ 'yaml',
+      \ 'vim',
+      \ 'json',
+      \ 'scala',
+      \ 'diff',
+      \ 'python'
+      \ ]
+
+" vim:ft=vim

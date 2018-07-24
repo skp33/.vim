@@ -1,0 +1,5 @@
+" Lucius colorscheme 
+
+Plug 'jonathanfilip/vim-lucius'
+
+" vim:ft=vim

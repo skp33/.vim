@@ -1,0 +1,5 @@
+" Scala Plugin for vim
+
+Plug 'derekwyatt/vim-scala'
+
+" vim:ft=vim
