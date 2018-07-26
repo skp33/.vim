@@ -21,8 +21,24 @@ set shiftwidth=2
 set shiftround
 set expandtab
 
+if has("gui_running")
+  " Set a nicer font.
+  set guifont=Lucida\ Console:h12:cDEFAULT
+  " Hide the toolbar.
+  set guioptions-=T
+  set guioptions-=m
+  set guioptions-=r
+endif
+
+nmap oo o<Esc>
+nmap oO o<Esc>k
+nmap OO O<Esc>
+nmap Oo O<Esc>j
+
+let mapleader = "<space>"
+
 " Display extra whitespace
-set list listchars=tab:»·,trail:·,nbsp:·
+"set list listchars=tab:»·,trail:·,nbsp:·
 
 " Use one space, not two, after punctuation.
 set nojoinspaces

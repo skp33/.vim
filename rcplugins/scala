@@ -1,5 +1,6 @@
 " Scala Plugin for vim
 
 Plug 'derekwyatt/vim-scala'
+let g:scala_use_default_keymappings = 0
 
 " vim:ft=vim

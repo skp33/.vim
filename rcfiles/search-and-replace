@@ -11,5 +11,6 @@ vnoremap <leader>sub :s///g<left><left>
 set term=screen-256color
 
 colorscheme lucius
+LuciusLightLowContrast
 
 " vim:ft=vim
